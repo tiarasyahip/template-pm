@@ -30,7 +30,7 @@
                     <!-- Menu Item Dashboard -->
                     <li>
                         <a class="group relative flex items-center gap-2.5 rounded-sm py-2 px-4 font-medium text-bodydark1 duration-300 ease-in-out hover:bg-graydark dark:hover:bg-meta-4"
-                           href="index.html" @click="selected = (selected === 'Dashboard' ? '':'Dashboard')"
+                           href="index.html" @click="selected = 'Dashboard'"
                            :class="{ 'bg-graydark dark:bg-meta-4': (selected === 'Dashboard') && (page === 'dashboard') }"
                            :class="page === 'dashboard' && 'bg-graydark'">
                             <svg class="fill-current" width="18" height="18" viewBox="0 0 18 18" fill="none"
@@ -57,7 +57,7 @@
                     <!-- Menu Item Profile -->
                     <li>
                         <a class="group relative flex items-center gap-2.5 rounded-sm py-2 px-4 font-medium text-bodydark1 duration-300 ease-in-out hover:bg-graydark dark:hover:bg-meta-4"
-                           href="settings.html" @click="selected = (selected === 'Settings' ? '':'Settings')"
+                           href="settings.html" @click="selected = 'Settings'"
                            :class="{ 'bg-graydark dark:bg-meta-4': (selected === 'Settings') && (page === 'settings') }"
                            :class="page === 'settings' && 'bg-graydark'">
                             <svg class="fill-current" width="18" height="18" viewBox="0 0 18 18" fill="none"
